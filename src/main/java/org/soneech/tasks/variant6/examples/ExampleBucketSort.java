@@ -1,4 +1,4 @@
-package org.soneech.tasks.variant6;
+package org.soneech.tasks.variant6.examples;
 
 import java.util.Arrays;
 
@@ -7,7 +7,7 @@ public class ExampleBucketSort {
     public static void main(String[] args) {
         int[] num = { 3,6,1,7,2,8,10,4,9,5,8,10};
         int n = num.length;
-
+        System.out.println(Arrays.toString(num));
         bucketSort(num);
 
         for (int h = 0; h < n; h++)
